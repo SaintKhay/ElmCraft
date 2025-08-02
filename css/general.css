@@ -1,5 +1,5 @@
 .container {
-  max-width: 95%;
+  max-width: 98%;
   margin: 0 auto;
 }
 .about-link:link,
@@ -49,4 +49,13 @@
 }
 .cta-section {
   padding-bottom: 6.6rem;
+}
+
+.accordion-btn p {
+  color: #000;
+}
+
+.footer-columns div p {
+  color: #444;
+  font-size: 0.9rem;
 }

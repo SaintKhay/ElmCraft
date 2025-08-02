@@ -306,7 +306,7 @@ body {
 }
 .cta-section {
   background: linear-gradient(45deg, #7b4a2d00, #e8d0b31e),
-    url("/images/hero-3.jpg") center center/cover no-repeat;
+    url("../images/hero-3.jpg") center center/cover no-repeat;
   color: #fff;
   text-align: center;
   padding: 8rem 1rem;
