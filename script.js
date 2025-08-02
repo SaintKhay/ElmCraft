@@ -1,8 +1,13 @@
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.querySelector(".nav-links");
+const hero = document.querySelector(".hero-section");
 
-hamburger.addEventListener("click", () => {
-  navLinks.classList.toggle("show");
+hero.addEventListener("click", (e) => {
+  if (e.target.classList.contains("nav-show")) {
+    navLinks.classList.toggle("show");
+  } else {
+    navLinks.classList.remove("show");
+  }
 });
 
 const faders = document.querySelectorAll(".fade-in");

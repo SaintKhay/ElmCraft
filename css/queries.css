@@ -125,13 +125,13 @@
     top: 40%;
   }
   .service-section {
-    padding-bottom: 4.8rem;
+    padding-bottom: 3.2rem;
   }
   .faq-section {
     display: flex;
     flex-direction: column;
     gap: 1.4rem;
-    padding: 4.8rem 1rem;
+    padding: 3.2rem 1rem;
   }
   .about-container {
     display: grid;
@@ -146,7 +146,7 @@
     gap: 2rem;
   }
   .about-section {
-    padding: 3.2rem 0 4.8rem 0;
+    padding: 0rem 0 3.2rem 0;
   }
   .services-sub-head {
     display: block;
@@ -184,7 +184,7 @@
     margin-bottom: 1rem;
   }
   .services-section {
-    padding-bottom: 4.8rem;
+    padding-bottom: 3.2rem;
   }
   .section-tag {
     margin-bottom: 0.8rem;
