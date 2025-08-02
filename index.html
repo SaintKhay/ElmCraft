@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="ElmCraft  - Expert Furniture maker" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="images/Favicon 32x32.png" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="preload"
+      as="style"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      />
+    </noscript>
+
+    <link rel="preload" as="image" href="/images/hero-3.jpg" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>ElmCraft | Studios &mdash; Never clean again</title>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <header class="hero-section">
+      <nav class="navbar">
+        <div class="logo">
+          <span
+            ><img
+              src="images/ElmCraft-White-bg.png"
+              alt="ElmCraft Logo"
+              width="50"
+              height="50"
+          /></span>
+          ElmCraft Studios
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#section--1">About Us</a></li>
+          <li><a href="#section--2">Services</a></li>
+          <li><a href="#section--3">Gallery</a></li>
+          <li><a href="#section--4">FAQ</a></li>
+          <li><a href="#section--5">Contact</a></li>
+        </ul>
+
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+
+        <a href="#" class="btn contact-btn">Contact Us Now</a>
+      </nav>
+
+      <div class="hero-content fade-in">
+        <span class="tagline">Strong wood, Flawless finish.</span>
+        <h1>Crafting Quality <br />Woodwork for Every Space</h1>
+        <p>
+          Custom Carpentry & Fine Woodworking – Where Precision Meets
+          Passion.<br />
+          We bring your vision to life with expert craftsmanship, timeless
+          designs and unmatched durability.
+        </p>
+        <div class="hero-buttons">
+          <a href="#" class="btn primary">Get In Touch</a>
+          <a href="#" class="btn secondary">Find Out More</a>
+        </div>
+
+        <div class="hero-rating">
+          <span>⭐️⭐️⭐️⭐️⭐️</span>
+          <span>2000+ Satisfied Customers</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- About Section -->
+      <section class="about-section fade-in" id="section--1">
+        <div class="about-container container">
+          <img
+            src="images/features-img-1.jpg"
+            loading="lazy"
+            alt="Woodworker"
+            class="about-img"
+          />
+          <div class="about-text">
+            <span class="section-tag"
+              ><i class="fa-regular fa-circle-user icon"></i> About Us</span
+            >
+            <h2>Where Passion for Craftsmanship Meets Precision Building</h2>
+            <p>
+              We deliver expert, bespoke woodworking solutions. Our skilled
+              craftsmen combine decades of experience with premium hardwoods and
+              precision techniques to create structures built for beauty and
+              longevity. From hand planed finishes to fortified joints, we
+              ensure enduring quality in every project.
+            </p>
+            <div class="about-tags">
+              <span class="pill">✔ Thicker, Greener Lawn in Weeks</span>
+              <span class="pill">✔ No More Weeds – Guaranteed</span>
+              <span class="pill">✔ Saves You Time & Money Long Term</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="services-section fade-in container" id="section--2">
+        <div class="services-header">
+          <span class="section-tag">
+            <i class="fa-solid fa-couch icon"></i>
+            Our Services</span
+          >
+          <span class="services-sub-head">
+            <h2>
+              Expert Craftsmanship for Beautiful, Durable, and Custom-Built
+              Woodwork
+            </h2>
+            <a href="#" class="btn primary small">Find Out More →</a>
+          </span>
+        </div>
+        <div class="service-cards">
+          <div class="service-card">
+            <h4>
+              <span>
+                <i class="fa-solid fa-cube icon"></i>
+              </span>
+              Custom Cabinetry & Built-Ins
+            </h4>
+            <p>Tailored storage solutions for kitchens, bathrooms, and more.</p>
+            <a class="about-link" href="#">Find Out More →</a>
+          </div>
+          <div class="service-card highlighted">
+            <h4><i class="fa-solid fa-door-open icon"></i> Doors & Windows</h4>
+            <p>Beautiful and secure handcrafted entryways and frames.</p>
+            <a class="about-link" href="#">Find Out More →</a>
+          </div>
+          <div class="service-card">
+            <h4>
+              <i class="fa-solid fa-cloud-sun icon"></i>Deck & Outdoor
+              Structures
+            </h4>
+            <p>Durable, weatherproof patios, pergolas, and outdoor features.</p>
+            <a class="about-link" href="#">Find Out More →</a>
+          </div>
+          <div class="service-card highlighted">
+            <h4>
+              <i class="fa-solid fa-chair icon"></i> Fine Furniture Making
+            </h4>
+            <p>
+              Heirloom-quality tables, chairs, and bedroom sets built with care.
+            </p>
+            <a class="about-link" href="#">Find Out More →</a>
+          </div>
+          <div class="service-card">
+            <h4>
+              <i class="fa-solid fa-house icon"></i>Trim & Molding Installation
+            </h4>
+            <p>
+              Elevate your interiors with timeless detailing and clean finishes.
+            </p>
+            <a class="about-link" href="#">Find Out More →</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Work -->
+      <section class="work-section fade-in container" id="section--3">
+        <span class="section-tag"> Our Work</span>
+        <h2>Check Out Some of Our Latest Projects!</h2>
+        <div class="work-gallery">
+          <img src="images/cupboard (3).jpg" alt="Decking" loading="lazy" />
+
+          <img
+            src="images/mark-farias-fkugMBhVf1c-unsplash.jpg"
+            alt="Outdoor Project"
+            loading="lazy"
+          />
+
+          <img src="images/cupboard (2).jpg" alt="Doors" loading="lazy" />
+          <img
+            src="images/cupboard (4).jpg"
+            alt="Outdoor Project"
+            loading="lazy"
+          />
+
+          <img
+            src="images/cupboard (1).jpg"
+            alt="Outdoor Project"
+            loading="lazy"
+          />
+          <img
+            src="images/krisna-putra-pratama-LbC4EJjbQh0-unsplash.jpg"
+            alt="Outdoor Project"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section" id="section--4">
+        <div class="faq-bg">
+          <span class="section-tag"
+            ><i class="fa-solid fa-comments icon"></i>FAQ</span
+          >
+          <div class="faq-header">
+            <h2>Your Top Queries, Answered</h2>
+            <p>
+              Find quick answers to common carpentry questions below. Tailored
+              to answer most of your questions
+            </p>
+          </div>
+          <div class="faq-container">
+            <div class="faq-left">
+              <img
+                src="images/samuel-cruz-t1pwbnk2lm0-unsplash.jpg"
+                alt="Carpenter working"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-right">
+          <div class="accordion">
+            <div class="accordion-item">
+              <button class="accordion-btn">
+                <p>How Fast is delivery?</p>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content">
+                We work with oak, mahogany, pine, and walnut.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-btn">
+                <p>What Wood Do You Work With?</p>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content">
+                We work with oak, mahogany, pine, and walnut.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-btn">
+                <p>What Is Your Pricing Structure?</p>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content">
+                We work with oak, mahogany, pine, and walnut.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-btn">
+                <p>What Is Your Pricing Structure?</p>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content">
+                We work with oak, mahogany, pine, and walnut.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-btn">
+                <p>Do You Deliver Worldwide?</p>
+                <span class="icon">+</span>
+              </button>
+              <div class="accordion-content">
+                We work mainly with countries in Europe
+              </div>
+            </div>
+            <div class="accordion-item">
+              <button class="accordion-btn">
+                Do You Offer Custom Designs? <span class="icon">+</span>
+              </button>
+              <div class="accordion-content">
+                Yes, we offer fully customized builds.
+              </div>
+            </div>
+            <!-- Add more FAQ items as needed -->
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section fade-in" id="section--5">
+        <h2>Build Your Dream Space Now!</h2>
+        <p>Enter your email and we’ll contact you ASAP</p>
+        <form class="cta-form">
+          <input
+            id="form"
+            type="email"
+            placeholder="Enter your email here"
+            required
+          />
+          <button type="submit">Contact</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="section--6">
+      <div class="footer-columns container">
+        <div>
+          <h3>ElmCraft Studio</h3>
+          <p>Less Noise, More Wood</p>
+          <p>Tel: +234 8107507789</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <a class="nav__link" href="#section--1">About Us</a>
+          <a class="nav__link" href="#section--2">Services</a>
+          <a class="nav__link" href="#section--3">Our Works</a>
+          <a class="nav__link" href="#section--4">FAQs</a>
+          <a class="nav__link" href="#section--5">Contact Us</a>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <p>Pricing</p>
+          <p>Support</p>
+          <p>Our Works</p>
+          <p>Our Works</p>
+          <p>Contact Us</p>
+        </div>
+        <div>
+          <h4>Regulation</h4>
+          <p>Privacy & Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Cookie Policy</p>
+          <p>Refund Policy</p>
+        </div>
+        <div class="last-child">
+          <h4>Social</h4>
+          <span class="social-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-snapchat"></i>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
